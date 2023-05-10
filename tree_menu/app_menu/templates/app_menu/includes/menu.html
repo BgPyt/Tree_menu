@@ -1,0 +1,9 @@
+{% load tag %}
+
+{{ name_menu }}
+   <ul>
+{% autoescape off %}
+{{ html_menu }}
+{% endautoescape %}
+    </ul>
+
